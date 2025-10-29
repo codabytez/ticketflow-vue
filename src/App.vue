@@ -23,7 +23,7 @@
     >
       <div class="max-w-[1440px] mx-auto">
         <header class="flex justify-between items-center px-6 py-4">
-          <h1 class="text-2xl font-bold text-indigo-600">TicketFlow Vue</h1>
+          <h1 class="text-2xl font-bold text-indigo-600">TicketFlow</h1>
           <button
             @click="navigateTo('login')"
             class="px-6 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
@@ -91,7 +91,7 @@
         </section>
 
         <footer class="px-6 py-8 border-t border-gray-200 text-center text-gray-600">
-          <p>&copy; 2025 TicketFlow Vue. All rights reserved.</p>
+          <p>&copy; {{ new Date().getFullYear() }} TicketFlow. All rights reserved.</p>
         </footer>
       </div>
     </div>

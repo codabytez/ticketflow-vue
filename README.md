@@ -221,3 +221,7 @@ pnpm preview
 
 - Built for HNG Internship Frontend Track Stage 2
 - Design inspiration from behance
+
+**Live Demo**: <https://ticketflow-vue-three.vercel.app>
+
+**Repository**: <https://github.com/codabytez/ticketflow-vue>
